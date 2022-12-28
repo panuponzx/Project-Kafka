@@ -1,0 +1,22 @@
+{
+  "name": "team4_project_migrate_kafka-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/middleware/producer.js",
+    "start": " node ./src/controller/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "kafka": "^0.2.3",
+    "kafkajs": "^2.2.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20"
+  }
+}
